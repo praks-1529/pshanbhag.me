@@ -34,6 +34,7 @@ module.exports = {
         },
         custom: {
           100: '#21B1F4',
+          800: '#191970',
           900: '#0D0F5F',
         },
         standard: {

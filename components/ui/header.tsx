@@ -17,7 +17,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/blogs" className="font-medium text-custom-h1 hover:text-custom-secondary px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                <Link href="/works" className="font-medium text-custom-h1 hover:text-custom-secondary px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   About
                 </Link>
               </li>
@@ -32,8 +32,8 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-custom-h1 hover:text-custom-secondary px-4 py-3 flex items-center transition duration-150 ease-in-out">
-                  Blog
+                <Link href="/blogs" className="font-medium text-custom-h1 hover:text-custom-secondary px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                  Blogs
                 </Link>
               </li>
             </ul>
