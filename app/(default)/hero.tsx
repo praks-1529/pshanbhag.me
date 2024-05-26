@@ -16,7 +16,7 @@ export default function Hero() {
                         <Typewriter
                             options={{
                                 delay: 100,
-                                strings: ['Developer', 'Consultant', 'Freelancer'],
+                                strings: ['Developer', 'AI Consultant', 'Founder', 'Mentor'],
                                 autoStart: true,
                                 loop: true,
                                 wrapperClassName: 'text-3xl text-custom-100',
