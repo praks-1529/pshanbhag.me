@@ -30,12 +30,12 @@ export default function Header() {
                 <Link href="#" className="font-medium text-custom-h1 hover:text-custom-secondary px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   Contact
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/blogs" className="font-medium text-custom-h1 hover:text-custom-secondary px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   Blogs
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </nav>
           <MobileMenu />

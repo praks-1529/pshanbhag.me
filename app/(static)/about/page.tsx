@@ -24,8 +24,8 @@ export default function Blogs() {
                             <p className="basis-2/2 text-gray-100 text-lg md:text-xl font-semibold m-auto">Years of experience</p>
                         </div>
                         <div className="flex flex-row border border-dashed rounded-md border-gray-500 p-4">
-                            <p className="basis-1/2 text-custom-100 text-2xl md:text-4xl font-bold m-auto">500K+</p>
-                            <p className="basis-2/2 text-gray-100 text-lg md:text-xl font-semibold m-auto">Lines of code</p>
+                            <p className="basis-1/2 text-custom-100 text-2xl md:text-4xl font-bold m-auto">1M+</p>
+                            <p className="basis-2/2 text-gray-100 text-lg md:text-xl font-semibold m-auto">Lines of production code</p>
                         </div>
                         <div className="flex flex-row border border-dashed rounded-md border-gray-500 p-4">
                             <p className="basis-1/2 text-custom-100 text-2xl md:text-4xl font-bold m-auto">50+</p>
