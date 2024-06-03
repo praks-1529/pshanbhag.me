@@ -23,7 +23,7 @@ export default function Hero() {
                                 cursorClassName: 'text-3xl text-custom-100'
                             }} />
                         <div className='flex flex-row mt-5 justify-center md:justify-start'>
-                            <CustomButton text="Say hello"></CustomButton>
+                            <CustomButton text="Say hello" href='https://topmate.io/prakash_shanbhag'></CustomButton>
                         </div>
                     </div>
                     <div className='flex flex-row p-10'>
