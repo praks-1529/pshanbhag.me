@@ -15,8 +15,8 @@ export default function Hero() {
                         <p className="text-gray-100 text-2xl md:text-4xl mt-5 font-bold">A passionate</p>
                         <Typewriter
                             options={{
-                                delay: 100,
-                                strings: ['Developer', 'AI Consultant', 'Founder', 'Mentor', 'Tech Enthusiast'],
+                                delay: 50,
+                                strings: ['Developer', 'AI Enthusiast', 'Founder', 'Mentor', 'AI Consultant'],
                                 autoStart: true,
                                 loop: true,
                                 wrapperClassName: 'text-3xl text-custom-100',

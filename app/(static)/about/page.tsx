@@ -50,8 +50,21 @@ export default function Blogs() {
                         {/* Experience summary */}
                         <p className="text-custom-100 text-xl md:text-2xl text-left">WORK EXPERIENCE</p>
                         <p className="text-gray-100 text-3xl md:text-6xl text-left">My Experience</p>
-                        <p className="text-gray-400 text-xl md:text-xl text-left">I've been an AI chameleon, adapting and thriving across diverse industries, from Fintech to gaming, and everything in between.</p>
+                        {/* <p className="text-gray-400 text-xl md:text-xl text-left">I've been an AI chameleon, adapting and thriving across diverse industries, from Fintech to gaming, and everything in between.</p> */}
                         {/* Experience 1 */}
+                        <div className='flex flex-row mt-10'>
+                            <div className='flex basis-2/12 flex-col pb-5 pr-5 md:pb-10 md:pr-10'>
+                                <img src='/signalsiq.svg'></img>
+                            </div>
+                            <div className='flex basis-10/12 flex-col'>
+                                <p className='font-bold text-3xl'>Co-founder</p>
+                                <div className='flex flex-col md:flex-row justify-start'>
+                                    <p className='font-semibold text-2xl hover:text-custom-100'><a href='https://signalsiq.ai'>SignalsIQ.ai</a></p>
+                                    <p className='md:pl-2 text-2xl text-gray-400'>( 2024-Present )</p>
+                                </div>
+                                {/* <p className='text-lg text-gray-400'>Anything and everything</p> */}
+                            </div>
+                        </div>
                         <div className='flex flex-row mt-10'>
                             <div className='flex basis-2/12 flex-col pb-5 pr-5 md:pb-10 md:pr-10'>
                                 <img src='/google.png'></img>
@@ -62,7 +75,7 @@ export default function Blogs() {
                                     <p className='font-semibold text-2xl hover:text-custom-100'><a href='https://google.com'>Google</a></p>
                                     <p className='md:pl-2 text-2xl text-gray-400'>( 2022-2024 )</p>
                                 </div>
-                                <p className='text-lg text-gray-400'>Tech lead of a team that managed every bit of data stored by cloud VMs in GCP.</p>
+                                {/* <p className='text-lg text-gray-400'>Tech lead - Persistent disk team</p> */}
                             </div>
                         </div>
                         {/* Exp-2 */}
@@ -80,7 +93,7 @@ export default function Blogs() {
                                     <p className='font-semibold text-2xl hover:text-custom-100'><a href="https://www.gameskraft.com/">Gameskraft</a></p>
                                     <p className='md:pl-2 text-2xl text-gray-400'>( 2020-2022 )</p>
                                 </div>
-                                <p className='text-lg text-gray-400'>Managed game engine, fraud detection, payments & devops of RummyCulture</p>
+                                {/* <p className='text-lg text-gray-400'>Managed game engine, fraud detection, payments & devops of RummyCulture</p> */}
                             </div>
                         </div>
                         {/* Exp-3 */}
@@ -98,7 +111,7 @@ export default function Blogs() {
                                     <p className='font-semibold text-2xl hover:text-custom-100'><a href="https://www.hotstar.com/">Disney+ Hotstar</a></p>
                                     <p className='md:pl-2 text-2xl text-gray-400'>( 2018-2020 )</p>
                                 </div>
-                                <p className='text-lg text-gray-400'>Scaled subscriptions and payments platform from 100K to 25M+ subscriptions on Hotstar platform </p>
+                                {/* <p className='text-lg text-gray-400'>Scaled subscriptions and payments platform from 100K to 25M+ subscriptions on Hotstar platform </p> */}
                             </div>
                         </div>
                         {/* Exp-4 */}
@@ -112,7 +125,7 @@ export default function Blogs() {
                                     <p className='font-semibold text-2xl hover:text-custom-100'><a href='https://www.grab.com/sg/'>Grab</a></p>
                                     <p className='md:pl-2 text-2xl text-gray-400'>( 2017-2018 )</p>
                                 </div>
-                                <p className='text-lg text-gray-400'>Was part of the team that launched first version of GabPay wallet in Oct 2017</p>
+                                {/* <p className='text-lg text-gray-400'>Was part of the team that launched first version of GabPay wallet in Oct 2017</p> */}
                             </div>
                         </div>
                         {/* Exp-5 */}
@@ -127,7 +140,7 @@ export default function Blogs() {
                                     <p className='font-semibold text-2xl'>Stayzilla</p>
                                     <p className='md:pl-2 text-2xl text-gray-400'>( 2016-2017 )</p>
                                 </div>
-                                <p className='text-lg text-gray-400'>Part of pricing team that used to manage the prices of inventory.</p>
+                                {/* <p className='text-lg text-gray-400'>Part of pricing team that used to manage the prices of inventory.</p> */}
                             </div>
                         </div>
                         {/* Exp-6 */}
@@ -141,7 +154,7 @@ export default function Blogs() {
                                     <p className='font-semibold text-2xl hover:text-custom-100'><a href='https://www.synopsys.com/'>Synopsys</a></p>
                                     <p className='md:pl-2 text-2xl text-gray-400'>( 2010-2016 )</p>
                                 </div>
-                                <p className='text-lg text-gray-400'>Core runtime performance optimzation of Synopsys products</p>
+                                {/* <p className='text-lg text-gray-400'>Core runtime performance optimzation of Synopsys products</p> */}
                             </div>
                         </div>
                     </div>
